@@ -51,11 +51,11 @@ function App() {
         </form>
 
 
-        <h4 className={(countryname === "") ? "none" : "block"} > <b> Country Name: </b> {countryname}</h4>
-        <h5 className={(countryname === "") ? "none" : "block"}> <b>  City Name: </b> {Weathername}</h5>
-        <h5 className={(countryname === "") ? "none" : "block"}> <b> Temperature: </b> {Weathertemp}°C</h5>
-        <h5 className={(countryname === "") ? "none" : "block"}> <b> Feelslike:   </b> {Weatherfeel}°C</h5>
-        <img className={(countryname === "") ? "none" : "block"} src={icon} />
+        <h4 className={(countryname === "") ? "none" : "block"} > <b> COUNTRY NAME: </b> {countryname}</h4>
+        <h5 className={(countryname === "") ? "none" : "block"}> <b>  CITY NAME: </b> {Weathername}</h5>
+        <h5 className={(countryname === "") ? "none" : "block"}> <b> TEMPERATURE: </b> {Weathertemp}°C</h5>
+        <h5 className={(countryname === "") ? "none" : "block"}> <b> FEELSLIKE:   </b> {Weatherfeel}°C</h5>
+        <img className={(countryname === "") ? "none" : "block"} src={icon} width={50}/>
 
       </div>
 
